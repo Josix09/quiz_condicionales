@@ -6,16 +6,30 @@ print("----- VERIFICAR TRIANGULO ----")
 print("------------------------------")
 
 # input
-a=int(input)("ingrese valor: ")
+a=int(input("ingrese valor: "))
 
-b=int(input)("ingrese valor: ")
+b=int(input("ingrese valor: "))
 
-c=int(input)("ingrese el valor: ")
+c=int(input("ingrese el valor: "))
 
 
 # processing
 
-if a+b>c
+if a+b>c:
+    r=("es posible")
+
+if a+c>b:
+    r=("es posible")
+
+if b+c>a:
+    r=("es posible")
+
+else:
+    r=("no es posible")
+
 
 
 # output
+
+print("resultado: " +str(r))
+
