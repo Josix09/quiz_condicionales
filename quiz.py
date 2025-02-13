@@ -6,7 +6,16 @@ print("----- VERIFICAR TRIANGULO ----")
 print("------------------------------")
 
 # input
+a=int(input)("ingrese valor: ")
+
+b=int(input)("ingrese valor: ")
+
+c=int(input)("ingrese el valor: ")
+
 
 # processing
+
+if a+b>c
+
 
 # output
